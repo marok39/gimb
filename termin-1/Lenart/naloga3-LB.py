@@ -16,7 +16,7 @@ def main():
             pass
     total, correct = timeFunc(x)
     print("V {:.3} sekundah ste pravilno odgovorili na {} od {}, kar je {}%. \
-    V povprecju ste porabili {:.3} na krog.".format(total, correct, x, correct*100/x, total/x))
+V povprecju ste porabili {:.3} na krog.".format(total, correct, x, correct*100/x, total/x))
 
 def mult(amount):
     correct = 0
