@@ -10,7 +10,7 @@ def stor(x, y): # pravokotnik
     print((a*x+n)*y)
 
 def smrekica(lays): # enakostranicni trikotnik; lays => layers
-    for x in range(lays):
+    for x in range(lays+1):
         print(a*x)
 
 def main():

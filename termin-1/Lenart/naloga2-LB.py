@@ -3,7 +3,7 @@ import sys
 
 def fakulteta(n):
     temp = 1
-    for x in range(n):
+    for x in range(n+1):
         temp *= x
     return temp
 
