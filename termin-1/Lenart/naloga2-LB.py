@@ -3,7 +3,7 @@ import sys
 
 def fakulteta(n):
     temp = 1
-    for x in range(n+1):
+    for x in range(1, n+1):
         temp *= x
     return temp
 
@@ -14,7 +14,7 @@ def rekurzivno(n):
         return n * rekurzivno(n-1)
 
 def stirling(n):
-    return(sqrt(2*pi*n)*(n/e)^n)
+    return(sqrt(2*pi*n)*(n/e)**n)
 
 def main():
     if len(sys.argv) > 1:
