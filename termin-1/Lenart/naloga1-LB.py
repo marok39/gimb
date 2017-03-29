@@ -1,17 +1,25 @@
 import sys
+from math import floor
 
 a = "*" #for easier calling
 n = "\n"
+s = " "
+
 
 def deblo(x): # kvadrat
     print((a*x+n)*x)
 
+
 def stor(x, y): # pravokotnik
     print((a*x+n)*y)
 
+
 def smrekica(lays): # enakostranicni trikotnik; lays => layers
-    for x in range(lays+1):
-        print(a*x)
+#    for x in range(lays+1):
+#        print(s*(lays-x) + (a*(x-1) + a))
+    for i in range(1,lays*2,2):
+        print("{}".format(a*i).center(lays*2))
+
 
 def main():
 
