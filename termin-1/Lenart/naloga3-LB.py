@@ -1,4 +1,4 @@
-from time import time
+from time import time as t
 from random import randint
 
 def main():
@@ -12,24 +12,30 @@ def main():
         try:
             x = int(input("Vnesi stevilo krogov:\n"))
             break
-    total, correct = time(mult, x)
-    print("V {} ste pravilno odgovorili na {} od {}, kar je {}%".format(total, correct, x, correct/x))
+        except:
+            pass
+    total, correct = timeFunc(x)
+    print("V {:.3} sekundah ste pravilno odgovorili na {} od {}, kar je {}%. \
+    V povprecju ste porabili {:.3} na krog.".format(total, correct, x, correct*100/x, total/x))
 
 def mult(amount):
     correct = 0
-    for x in range(amount+1):
+    for x in range(1, amount+1):
         a = randint(1, 11)
         b = randint(1, 11)
         try:
             numb = int(input("Zmnozi: {} * {} = ".format(a, b)))
+        except:
+            pass
         if numb == a * b:
             correct +=1
     return correct
 
-def time(func, x):
-    start = time()
-    funcret = func(x)
-    return (time() - start, funcret)
+def timeFunc(x):
+    start = t()
+    funcret = mult(x)
+    end = t() - start
+    return (end, funcret)
 
 if __name__ == "__main__":
     main()
