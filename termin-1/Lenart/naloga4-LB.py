@@ -10,7 +10,7 @@ def main():
     else:
         a = int(input())
         b = int(input())
-    
+
     n = funkcija(a, b)
     print("%d" % n)
 
