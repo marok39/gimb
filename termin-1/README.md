@@ -3,6 +3,7 @@
   - ```pwd``` prikaže celotno pot do trenutnega imenika
   - ```ls ``` prikaže datoteke v trenutnem direktoriju:
     - ```ls -l``` ali ```ll``` seznam datotek s podrobnostmi
+  - ```dir``` prikaže datoteke v trenutnem direkturiju (windows)
   - ```cd``` spremeni direktorij:
     - ```cd ..``` pojdi po hiearhiji nazaj
     - ```cd ime-mojega-direktorija``` pojdi v *ime-mojega-direktorija*
@@ -58,8 +59,8 @@ Primer izhoda:
 ```
 ***
 #### Naloga 2
-Napiši tri funkcije za različne načine izračuna vrednosti fakultete. 
-Vrednost fakultete se izračuna takole: 
+Napiši tri funkcije za različne načine izračuna vrednosti fakultete.
+Vrednost fakultete se izračuna takole:
 ```
 5! = 5 * 4 * 3 * 2 * 1
 0! = 1 (izhaja iz definicije)
@@ -70,7 +71,7 @@ Vrednost fakultete se izračuna takole:
 - rekurzivno
 
 ![alt text](https://wikimedia.org/api/rest_v1/media/math/render/svg/0aa940d197f80ace5839c8596a61ae3e00a5e260 "fakulteta rekurzija")
-- približek (Stirling) 
+- približek (Stirling)
 
 ![alt text](https://wikimedia.org/api/rest_v1/media/math/render/svg/15b10f6b044657c32e5572151e17880fa78bb5e8 "Stirling formula")
 
@@ -100,12 +101,12 @@ Napiši program, ki mu podaš število krogov igre, program pa ti za vsak krog n
 Po zadnjem krogu izpiši čas, ki si ga porabil za vse kroge.
 Predlagam interval naključnih števil [1, 10].
 
-Primer enega kroga: 
+Primer enega kroga:
 <pre>Izracunaj: 2 * 2 = <i>4</i></pre>
 
 ***
 #### Naloga 4
-Napiši program, ki vrne število števil, ki so deljiva z 2, 3 ali 5 na intervalu [a, b]. 
+Napiši program, ki vrne število števil, ki so deljiva z 2, 3 ali 5 na intervalu [a, b].
 
 Primer vhoda:    
 ```
