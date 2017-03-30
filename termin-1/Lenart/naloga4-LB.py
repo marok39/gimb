@@ -2,14 +2,15 @@ import sys
 
 def funkcija(a, b, x):
     #a -= 1
+    while a%x != 0:
+        a += 1
     #b += 1
+    while b%x != 0:
+        b -= 1
     delta = b - a
-    amount = delta//x
-    if a % x == 0:
-        amount += 1
-    if b % x == 0:
-        amount += 1
+    amount = delta//x + 1
     return amount
+
 
 def main():
     if len(sys.argv) > 1:
