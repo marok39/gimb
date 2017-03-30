@@ -8,7 +8,7 @@ def funkcija(a, b, x):
     while b%x != 0:
         b -= 1
     delta = b - a
-    amount = delta//x + 1
+    amount = (delta//x) + 1
     return amount
 
 
