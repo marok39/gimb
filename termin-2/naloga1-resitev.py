@@ -1,4 +1,4 @@
-from time import *
+from time import time
 from random import randint
 
 def main():

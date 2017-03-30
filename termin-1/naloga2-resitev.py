@@ -9,7 +9,7 @@ def fakulteta(n):
     return num
 
 def rekurzivno(n):
-    if n == 1:
+    if n == 0:
         return 1
     return n * rekurzivno(n-1)
 
