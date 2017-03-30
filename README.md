@@ -8,8 +8,12 @@ Navodila in naloge se nahajajo v ```master``` branch, primer rešitve pa v ```re
 ### Teme
 #### 1. termin <sub><sup>*(29.3.2017)*<sup><sub>
 - uporaba konzole (```pwd, cd, ls, python3```)
-- osnoven git workflow (```git pull, status, add, commit, push```)
+- osnoven git workflow (```git pull, add, commit, push```)
 - python (zanke, funkcije, branje/pisanje)
+
+#### 2. termin <sub><sup>*(5.4.2017)*<sup><sub>
+- rekurzija
+- naloga 3 in 4 od prejšnjega tedna
 
 ***
 #### Uporabna literatura
