@@ -35,6 +35,44 @@ To so števila: ```4, 5, 6, 8, 9, 10, 12```
 
 Testna primera 4 in 5 sta malo težja (večji interval). Poskusi dobiti rešitev v manj kot 5 sekundah.
 ***
+#### Naloga 3 (za pogumne)
+Napiši program, ki sliko iz formata PPM pretvori v ASCII art.
+Osnovni algoritem, gre nekako takole: vsako piko (piksel) prvotne slike pretvori v sivinsko vrednost tako, da izračunaš povprečje R, G, B.
+
+Tako je sivina:
+```
+sivina = (R + G + B) / 3
+```
+
+Vsaki sivini se nato priredi ASCII znak, ki pokrije znakovno polje (od bele proti črni) in vrednost sivine, ki ji znak pripada:
+```
+Z = (' ', '.', '\'', ':',  'o', '&', '8', '#', '@')
+S = (230, 200, 180, 160, 130, 100, 70 , 50)
+za i = 0...7:
+  če sivina >= S[i] => znak = Z[i]
+```
+Za nadgradnjo lahko vsak piksel izhodne datoteke zavzema več pikslov vhodne PPM datoteke (tako zmanjšamo ASCII sliko). Velikost 'okna' bo tako n x n.
+
+V datotekah input-* so 3 vrstice:
+```
+ime slike
+ime izhodne ascii slike
+velikost okna
+```
+V izhodno datoteko izpišite zgolj ASCII sliko.
+
+Več o formatu PPM najdete [tukaj](http://netpbm.sourceforge.net/doc/ppm.html).
+
+V osnovi pa izgleda takole; opisujemo sliko enega belega piksla:
+```
+P6            (definira format)
+1 1           (sirina x visina)
+255           (max vrednost barve)
+255 255 255   (RGB vrednosti enega piksla)
+```
+Za boljšo preglednost predlagam, da za predstavitev enega piksla uporabite razred.
+Za pomoč pri branju si lahko pomagate z ```ascii.py``` (kjer je rešen težji del naloge).
+***
 #### Testiranje rešitev
 Za testiranje rešitev so priloženi testni primeri, ki jih preverite ročno ali pa uporabite priloženo python skripto.
 
