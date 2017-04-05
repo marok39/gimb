@@ -65,11 +65,11 @@ def grouper(n, iterable):
     """ 
     Iz seznama naredi seznam, v katerem so vsake 3 vrednosti en element seznama
     """
-	args = [iter(iterable)] * n
-	return list((tuple([e for e in t if e != None]) for t in zip_longest(*args)))
+    args = [iter(iterable)] * n
+    return list((tuple([e for e in t if e != None]) for t in zip_longest(*args)))
 
 def ascii_code_to_string(l):
-	return "".join([chr(i) for i in l])
+    return "".join([chr(i) for i in l])
 
 def okno(pixels, i, j, n):
     sumR, sumG, sumB = 0, 0, 0
