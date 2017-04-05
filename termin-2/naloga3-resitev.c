@@ -9,7 +9,7 @@ typedef struct Pixels {
     int b;
 } Pixel;
 
-long okno(int x, int y, int n, int visina, int sirina, Pixel **t) {
+long okno(int x, int y, int n, Pixel **t) {
     long sumR = 0, sumG = 0, sumB = 0;
     
     for(int i = x; i <= x + (n-1); i++) {
@@ -53,7 +53,7 @@ int main(){
     
     for(int i = 0; i < visina; i += n) {
         for(int j = 0; j < sirina; j += n) {
-            long sivina = okno(i, j, n, visina, sirina, tab);
+            long sivina = okno(i, j, n, tab);
             if(sivina >= 50) {
                 for(int i = 0; i < 8; i++) {
                     if(sivina >= S[i]) {
