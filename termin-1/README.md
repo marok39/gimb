@@ -94,34 +94,7 @@ Primer izhoda:
          4 |                   24 |                   24 |                  23.50618 | 0.02058
          5 |                  120 |                  120 |                 118.01917 | 0.01651
 ```
-***
-#### Naloga 3
-Igrali se bomo igro hitre poštevanke.
-Napiši program, ki mu podaš število krogov igre, program pa ti za vsak krog naključno generira poštevanko, ki jo moraš kar se da hitro rešiti.
-Po zadnjem krogu izpiši čas, ki si ga porabil za vse kroge.
-Predlagam interval naključnih števil [1, 10].
 
-Primer enega kroga:
-<pre>Izracunaj: 2 * 2 = <i>4</i></pre>
-
-***
-#### Naloga 4
-Napiši program, ki vrne število števil, ki so deljiva z 2, 3 ali 5 na intervalu [a, b].
-
-Primer vhoda:    
-```
-python3 naloga4.py
-4
-12
-```
-
-Primer izhoda:   
-```
-7
-```
-To so števila: ```4, 5, 6, 8, 9, 10, 12```
-
-Testna primera 4 in 5 sta malo težja (večji interval). Poskusi dobiti rešitev v manj kot 5 sekundah.
 ***
 #### Testiranje rešitev
 Za testiranje rešitev so priloženi testni primeri, ki jih preverite ročno ali pa uporabite priloženo python skripto.
