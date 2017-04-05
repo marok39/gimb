@@ -34,6 +34,7 @@ def average_pixels():
     if not f.endswith(".ppm"):
         f += ".ppm"
     width, height, data = read_file(f)
+    print(width, height)
     for line in range(height):
         line_out = []
         current_line = data[line*width:(line+1)*width]
