@@ -11,27 +11,27 @@ Simulirali bomo neko osnovno trgovino, kjer se prodaja, kupuje in posodablja zal
 Načeloma je mišljeno, da se za vsako podtočko napiše funkcijo oz. neko funkcijo uporabi.
 
 1. Seznam
-  1. Izpiši trojice za vse artikle, npr: ```('hruska', 5, 2.99)```
-  2. Poišči artikel z min ali max vrednostjo zaloge ali cene
-  3. Napiši funkcijo, ki spremeni zalogo nekemu artiklu, klic bi lahko bil: ```posodobi_zalogo('jabolko', 10, ime_artikla, zaloga_artikla) # poveca zalogo jabolka za 10```
+    1. Izpiši trojice za vse artikle, npr: ```('hruska', 5, 2.99)```
+    2. Poišči artikel z min ali max vrednostjo zaloge ali cene
+    3. Napiši funkcijo, ki spremeni zalogo nekemu artiklu, klic bi lahko bil: ```posodobi_zalogo('jabolko', 10, ime_artikla, zaloga_artikla) # poveca zalogo jabolka za 10```
 2. 2D seznam
-  1. Naredi 2D seznam in napiši funkcijo, ki izpiše trojice za vse artikle
+    1. Naredi 2D seznam in napiši funkcijo, ki izpiše trojice za vse artikle
 3. Razred
-  1. Definiraj razred Artikel, ki ima atribute (ime, zaloga, cena)
-  2. Definiraj ```__str__(self):```, ki objektu Artikel izpiše atribute v obliki trojice
-  3. Razredu dodaj funkcijo, ki zviša oz. zniža zalogo
-  4. Razredu dodaj funkcijo, ki preveri, če lahko iz zaloge kaj dvignemo
+    1. Definiraj razred Artikel, ki ima atribute (ime, zaloga, cena)
+    2. Definiraj ```__str__(self):```, ki objektu Artikel izpiše atribute v obliki trojice
+    3. Razredu dodaj funkcijo, ki zviša oz. zniža zalogo
+    4. Razredu dodaj funkcijo, ki preveri, če lahko iz zaloge kaj dvignemo
 4. Branje datoteke v razred
-  1. Preberi vsebino datoteke data.txt v nek seznam
-  2. Kreiraj seznam objektov Artikel in jih napolni s podatki iz data.txt
-  3. Pokliči nekaj funkcij in preveri (print), če deluje vse kot mora.
+    1. Preberi vsebino datoteke data.txt v nek seznam
+    2. Kreiraj seznam objektov Artikel in jih napolni s podatki iz data.txt
+    3. Pokliči nekaj funkcij in preveri (print), če deluje vse kot mora.
 5. Simulacija trgovine in zapis zalog v datoteko
-  1. Glede na input():
-    - stanje : izpiši koliko smo zaslužili danes (lahko gremo v minus)
-    - kupi (artikel, kolicina) : plačamo 0.5 cene artikla * kolicina in prištejemo zalogi
-    - prodaj (artikel, kolicina) : dobimo ceno artikla * kolicina in odštejemo zalogi (samo, če imamo dovolj na zalogi)
-    - konec : zaključi in zapiši trenutno stanje zalog v neko datoteko
-  2. Po vsakem input() izpiši stanje zalog artiklov, npr. ```print(artikli)```
+    1. Glede na input():
+        - stanje : izpiši koliko smo zaslužili danes (lahko gremo v minus)
+        - kupi (artikel, kolicina) : plačamo 0.5 cene artikla * kolicina in prištejemo zalogi
+        - prodaj (artikel, kolicina) : dobimo ceno artikla * kolicina in odštejemo zalogi (samo, če imamo dovolj na zalogi)
+        - konec : zaključi in zapiši trenutno stanje zalog v neko datoteko
+    2. Po vsakem input() izpiši stanje zalog artiklov, npr. ```print(artikli)```
 
 
 ***
