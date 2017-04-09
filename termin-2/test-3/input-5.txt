@@ -1,0 +1,3 @@
+test-3/pikachu.ppm
+test-3/output-5.txt
+2
