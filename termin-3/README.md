@@ -69,7 +69,7 @@ class Pravokotnik:
   def __init__(self, data): # lahko tudi (self, a, b)
     """
     __init__ se klice vsakic, ko poklicemo npr.
-    p = Pravokotnik(2, 3) # pravokotnik z a=2 in b=3 -> print(p.a) # 2
+    p = Pravokotnik((2, 3)) # pravokotnik z a=2 in b=3 -> print(p.a) # 2
     """
     self.a = data[0]
     self.b = data[1]
@@ -102,4 +102,10 @@ class Pravokotnik:
     print(p.ploscina()) # izpis je '2'
     """
     return self.a * self.b
+    
+data = (1, 2)
+p = Pravokotnik(data)
+l = [p, p, p]
+print(p.a, p.b, p, p.ploscina())
+print(l)
 ```
