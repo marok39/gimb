@@ -12,12 +12,21 @@ Navodila in naloge se nahajajo v ```master``` branch, primer rešitve pa v ```re
 - python (zanke, funkcije, branje/pisanje)
 
 #### 2. termin <sub><sup>*(5.4.2017)*<sup><sub>
-- rekurzija
 - naloga 3 in 4 od prejšnjega tedna
+
+#### 3. termin <sub><sup>*(12.4.2017)*<sup><sub>
+- priprave na ASCII art nalogo
+    - seznam (1d, 2d)
+    - branje/pisanje datoteke
+    - razred
+
+#### 4. termin <sub><sup>*(19.4.2017)*<sup><sub>
+- ASCII art naloga?
 
 ***
 #### Uporabna literatura
+- [CodingBat Python](http://codingbat.com/python) in [Codecademy](https://www.codecademy.com/learn/python)
 - [Osnove Git](http://rogerdudler.github.io/git-guide/)
 - [Poskusi Git](https://try.github.io/levels/1/challenges/1)
-- [Python za programerje :book::moon:](https://ucilnica.fri.uni-lj.si/file.php/166/Python%20za%20programerje.pdf)
+- [Python za programerje](https://ucilnica.fri.uni-lj.si/file.php/166/Python%20za%20programerje.pdf)
 - [Python for Computational Science and Engineering**](http://www.southampton.ac.uk/~fangohr/training/python/pdfs/Python-for-Computational-Science-and-Engineering.pdf)
