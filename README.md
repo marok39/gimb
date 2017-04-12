@@ -21,7 +21,7 @@ Navodila in naloge se nahajajo v ```master``` branch, primer rešitve pa v ```re
     - razred
 
 #### 4. termin <sub><sup>*(19.4.2017)*<sup><sub>
-- ASCII art naloga?
+- nadaljevanje 3. termina
 
 ***
 #### Uporabna literatura
@@ -29,4 +29,3 @@ Navodila in naloge se nahajajo v ```master``` branch, primer rešitve pa v ```re
 - [Osnove Git](http://rogerdudler.github.io/git-guide/)
 - [Poskusi Git](https://try.github.io/levels/1/challenges/1)
 - [Python za programerje](https://ucilnica.fri.uni-lj.si/file.php/166/Python%20za%20programerje.pdf)
-- [Python for Computational Science and Engineering**](http://www.southampton.ac.uk/~fangohr/training/python/pdfs/Python-for-Computational-Science-and-Engineering.pdf)
