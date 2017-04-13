@@ -102,7 +102,7 @@ class Pravokotnik:
     print(p.ploscina()) # izpis je '2'
     """
     return self.a * self.b
-    
+
 data = (1, 2)
 p = Pravokotnik(data)
 l = [p, p, p]
