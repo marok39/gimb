@@ -3,15 +3,18 @@ from itertools import zip_longest
 
 
 def grouper(n, iterable):
+    "Groups a list into a tuples of n elements"
     args = [iter(iterable)] * n
     return list(tuple([e for e in t if e != None]) for t in zip_longest(*args))
 
 
 def ascii_code_to_string(l):
+    "Changes list of ascii codes into a string of characters"
     return "".join([chr(i) for i in l])
 
 
 def read_file(ppm_file):
+    "Opens a PPM file and returns tuple with size of picture and list of pixel values"
     with open(ppm_file, "rb") as f:
         indata = f.readlines()
 
@@ -46,6 +49,7 @@ def average_pixels():
 
 
 def make_list():
+    "Makes list of lists of pixels, each inner list is a row in original picture"
     f = input("What file do you want to open?")
     if not f.endswith(".ppm"):
         f += ".ppm"
@@ -67,6 +71,7 @@ def make_list():
 
 
 def make_pic():
+    "Joins iner lists with empty string, then joins lists together with newline - creates final picture"
     grayscale_pix = []
     pixels = make_list()
     for line in pixels:
@@ -86,11 +91,13 @@ def main():
 
 
 class Pixel:
+    "Class with pixel values"
     def __init__(self, pixel):
-        self.avg = sum(pixel)/3
+        self.avg = sum(pixel)/3 #pixel value -> average value of Red, Green ansd Blue values
 
 
     def pix_gray(self):
+        "Changes self.value to grayscale symbol"
         chars = (' ', '.', '\'', ':',  'o', '&', '8', '#', '@')
         grayscale = (230, 200, 180, 160, 130, 100, 70 , 50, 0)
         for index, gray_iter in enumerate(grayscale):
