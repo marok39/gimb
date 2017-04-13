@@ -85,6 +85,12 @@ def make_pic():
     return grayscale_pix
 
 
+def join_pixels(n, orig):
+    ret_str = []
+    for x in range(int(len(orig)/n)):
+        large_pix = 
+
+
 def main():
     with open("result.txt", "w") as f:
         f.write(str(make_pic()))
@@ -105,6 +111,8 @@ class Pixel:
                 gray = chars[index]
                 break
         return gray
+
+
 
 
 if __name__ == "__main__":
