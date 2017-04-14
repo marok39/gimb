@@ -52,7 +52,7 @@ def average_pixels():
 def make_list():
     "Makes list of lists of pixels, each inner list is a row in original picture"
     f = input("What file do you want to open? ")
-    make_smaller = input("How many times do you want your picture to be smaller (in one dimension)? ")
+    make_smaller = input("How many times do you want your picture to be smaller (in one dimension)? ").split()
     if not f.endswith(".ppm"):
         f += ".ppm"
     (width, height), data = read_file(f)
@@ -72,17 +72,24 @@ def make_list():
         final_list.append(line_out)
 
     if make_smaller:
-        ratio = int(make_smaller)
-        for x in range(ceil(height/ratio)):
+        if len(make_smaller) == 1:
+            ratio_x = int(make_smaller[0])
+            ratio_y = ratio_x
+        elif len(make_smaller) == 2:
+            ratio_x = int(make_smaller[0])
+            ratio_y = int(make_smaller[1])
+        else:
+            raise ZeroDivisionError("One or two argumets only!")
+        for x in range(ceil(height/ratio_x)):
             small_line = []
-            for y in range(ceil(width/ratio)):
+            for y in range(ceil(width/ratio_y)):
                 a = BigPixel()
                 small_line.append(a)
             final_small.append(small_line)
 
         for line in final_list:
             for pixel in line:
-                x, y = pixel.get_big_coord(ratio)
+                x, y = pixel.get_big_coord(ratio_x, ratio_y)
                 final_small[x][y] += pixel
 
         return final_small
@@ -128,8 +135,8 @@ class Pixel:
         return gray_char
 
 
-    def get_big_coord(self, num): #num is amount of pixels to be grouped together.
-        return (self.x//num, self.y//num)
+    def get_big_coord(self, num_x, num_y): #num is amount of pixels to be grouped together.
+        return (self.x//num_x, self.y//num_y)
 
 
     def __str__(self):
