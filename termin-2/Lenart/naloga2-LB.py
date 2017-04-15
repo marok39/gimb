@@ -20,7 +20,7 @@ def main():
         a = int(input())
         b = int(input())
 
-    n = funkcija(a, b, 2) + funkcija(a, b, 3) + funkcija(a, b, 5) - funkcija(a, b, 6) - funkcija(a, b, 10) - funkcija(a, b, 12) + funkcija(a, b, 30)
+    n = funkcija(a, b, 2) + funkcija(a, b, 3) + funkcija(a, b, 5) - funkcija(a, b, 6) - funkcija(a, b, 10) - funkcija(a, b, 15) + funkcija(a, b, 30)
     print("%d" % n)
 
 if __name__ == "__main__":
