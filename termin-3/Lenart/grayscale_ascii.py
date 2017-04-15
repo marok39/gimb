@@ -5,18 +5,18 @@ import argparse
 
 
 def grouper(n, iterable):
-    "Groups a list into a tuples of n elements"
+    "Group a list into a tuples of n elements"
     args = [iter(iterable)] * n
     return list(tuple([e for e in t if e != None]) for t in zip_longest(*args))
 
 
 def ascii_code_to_string(l):
-    "Changes list of ascii codes into a string of characters"
+    "Change list of ascii codes into a string of characters"
     return "".join([chr(i) for i in l])
 
 
 def read_file(ppm_file):
-    "Opens a PPM file and returns tuple with size of picture and list of pixel values"
+    "Open a PPM file and return tuple with size of picture and list of pixel values"
     with open(ppm_file, "rb") as f:
         indata = f.readlines()
 
@@ -51,7 +51,10 @@ def average_pixels():
 
 
 def make_list(filename, ratio):
-    "Makes list of lists of pixels, each inner list is a row in original picture"
+    """
+    Make list of lists of pixels, each inner list is a row in original picture.
+    If ratio is specified, shrink the picture by it and return smaller one.
+    """
     f = filename
     make_smaller = ratio
     if not f.endswith(".ppm"):
@@ -99,7 +102,7 @@ def make_list(filename, ratio):
 
 
 def make_pic(filename, ratio):
-    "Joins inner lists with empty string, then joins lists together with newline - creates final picture"
+    "Join inner lists with empty string, then join lists together with newline - create final picture"
     grayscale_pix = []
     pixels = make_list(filename, ratio)
     for line in pixels:
@@ -145,6 +148,7 @@ class Pixel:
 
 
     def get_big_coord(self, num_x, num_y): #num is amount of pixels to be grouped together.
+        "Get coordinates of pixel in smaller picture to which this pixel will contribute its value."
         return (self.x//num_x, self.y//num_y)
 
 
