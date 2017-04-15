@@ -118,10 +118,10 @@ def make_pic(filename, ratio):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("filename", help="Which file to open", type=str)
-    parser.add_argument("height", help="How many times do you want the picture to be shorter", type=int)
-    parser.add_argument("width", help="How many times do you want the picture to be thinner", type=int)
-    parser.add_argument("-o", "--output", help="In what file do you want to store your output", type=str, default="result")
+    parser.add_argument("filename", help="PPM file to open", type=str)
+    parser.add_argument("-x", "--height", help="How many times do you want the picture to be shorter", type=int, default=1)
+    parser.add_argument("-y", "--width", help="How many times do you want the picture to be thinner", type=int, default=1)
+    parser.add_argument("-o", "--output", help="In what file do you want to store your output, default is result.txt", type=str, default="result")
     args = parser.parse_args()
     if not args.output.endswith(".txt"):
         args.output += ".txt"
