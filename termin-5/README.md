@@ -53,7 +53,7 @@ Pazi na primere, kjer so nepopolni podatki (npr. manjka leto)!
 
 
 ***
-#### Naloga 3*
+#### Naloga 3**
 Imamo robota, ki se je znašel v labirintu.
 Trenutno je na polju (x, y). Pomagaj mu priti v polje destination (xd, yd).
 
@@ -69,6 +69,7 @@ Ovira je v matriki označena z 1, prazno mesto pa z 0.
 
 Nalogo lahko rešiš iterativno ali rekurzivno. Priporočljivo je na oba načina.
 
+Končno pot lahko tudi prikažeš, npr. začetno pozicijo označiš z ```o```, končno z ```x```, vmesne pa z ```.```.
 
 ***
 #### Dodatki za Naloga 1
