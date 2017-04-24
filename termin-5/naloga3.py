@@ -1,5 +1,5 @@
 class Robot:
-    def __init__(self, grid, position, destination, visited):
+    def __init__(self, grid, position, destination):
         self.grid = grid
         self.position = position
         self.destination = destination
