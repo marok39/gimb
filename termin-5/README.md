@@ -53,7 +53,7 @@ Pazi na primere, kjer so nepopolni podatki (npr. manjka leto)!
 
 
 ***
-#### Naloga 3*
+#### Naloga 3**
 Imamo robota, ki se je znašel v labirintu.
 Trenutno je na polju (x, y). Pomagaj mu priti v polje destination (xd, yd).
 
