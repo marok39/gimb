@@ -3,6 +3,7 @@ Nadaljevanje:
 - seznam (1d, 2d)
 - branje/pisanje datoteke
 - razred
+- list comprehension
 
 ***
 #### Naloga 1
@@ -38,15 +39,16 @@ Načeloma je mišljeno, da se za vsako podtočko napiše funkcijo oz. neko funkc
 ***
 #### Naloga 2
 V datoteki ```imdb_movie_database.csv``` so podatki o ~5000 filmih.
-Za vsak film imamo njegov naslov, leto izida in povprečno oceno na IMDB.
+Za vsak film imamo njegov naslov, leto izida, povprečno oceno in število ocen na IMDB.
 
 Tvoja naloga je, da za podatke iz datoteke napišeš 4 funkcije, ki vrnejo:
-- seznam vseh filmov, ki imajo povprečno oceno vsaj 7.0 (oz. neko poljubno oceno)
 - film, ki ima največjo oceno (poišči algoritmično)
+- film z najboljšo oceno v poljubnem letu (algoritmično)
+- seznam vseh filmov, ki imajo povprečno oceno vsaj 7.0 (oz. neko poljubno oceno)
+- seznam vseh filmov, ki imajo povprečno oceno vsaj x in vsaj število glasov n
 - povprečno oceno vseh filmov
-- film z najboljšo oceno v poljubnem letu
 
-Predlagam, da nalogo rešiš z razredom Movie, ki ima atribute (release_year, title, rating).
+Predlagam, da nalogo rešiš z razredom Movie, ki ima atribute (release_year, title, rating, votes).
 Pazi na primere, kjer so nepopolni podatki (npr. manjka leto)!
 
 

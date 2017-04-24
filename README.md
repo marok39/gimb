@@ -26,6 +26,7 @@ Navodila in naloge se nahajajo v ```master``` branch, primer rešitve pa v ```re
 #### 5. termin <sub><sup>*(26.4.2017)*<sup><sub>
 - nadaljevanje 4. termina
 - delo z malo večjo količino podatkov
+- list comprehension
 - iskanje poti*
 
 ***
