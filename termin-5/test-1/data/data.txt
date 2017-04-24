@@ -1,0 +1,5 @@
+artikel zaloga cena
+jabolko 10 1.99
+hruska 5 2.99
+pomaranca 1 2.49
+banana 23 1.89
