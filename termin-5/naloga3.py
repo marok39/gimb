@@ -6,7 +6,7 @@ class Robot:
         self.visited = []
 
     def solved(self):
-        """ Returns true if current position is the destination. """
+        """ Returns true if the current position is the destination. """
         return False
 
     def move(self, move):
