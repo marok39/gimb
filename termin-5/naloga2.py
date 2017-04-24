@@ -1,12 +1,11 @@
 import csv
 
-
 class Movie:
     def __init__(self, data):
         pass
 
     def __str__(self):
-        return str(self.title, self.year, self.rating)
+        return str(self.title, self.votes, self.year, self.rating)
 
     def __repr__(self):
         return str(self)
