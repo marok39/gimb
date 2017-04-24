@@ -23,6 +23,11 @@ Navodila in naloge se nahajajo v ```master``` branch, primer rešitve pa v ```re
 #### 4. termin <sub><sup>*(19.4.2017)*<sup><sub>
 - nadaljevanje 3. termina
 
+#### 5. termin <sub><sup>*(26.4.2017)*<sup><sub>
+- nadaljevanje 4. termina
+- delo z malo večjo količino podatkov
+- iskanje poti*
+
 ***
 #### Uporabna literatura
 - [CodingBat Python](http://codingbat.com/python) in [Codecademy](https://www.codecademy.com/learn/python)
