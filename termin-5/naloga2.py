@@ -5,7 +5,7 @@ class Movie:
         pass
 
     def __str__(self):
-        return str(self.title, self.votes, self.year, self.rating)
+        return str((self.title, self.votes, self.year, self.rating))
 
     def __repr__(self):
         return str(self)
