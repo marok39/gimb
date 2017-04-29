@@ -29,6 +29,9 @@ Navodila in naloge se nahajajo v ```master``` branch, primer rešitve pa v ```re
 - list comprehension
 - iskanje poti*
 
+#### 6. termin <sub><sup>*(3.5.2017)*<sup><sub>
+- nadaljevanje 5. termina
+
 ***
 #### Uporabna literatura
 - [CodingBat Python](http://codingbat.com/python) in [Codecademy](https://www.codecademy.com/learn/python)
