@@ -34,7 +34,7 @@ a  0.125
 Slovar:
 ```python
 from collections import defaultdict
-text = defaultdict(int)
+d = defaultdict(int)
 d["prvi"] += 1
 print(d["prvi"]) # 1
 print(d["drugi"]) # 0
