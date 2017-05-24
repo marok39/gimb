@@ -36,6 +36,13 @@ Navodila in naloge se nahajajo v ```master``` branch, primer rešitve pa v ```re
 - nadaljevanje 6. termina
 - slovar
 
+#### 8. termin <sub><sup>*(17.5.2017)*<sup><sub>
+- nadaljevanje 7. termina
+- slovar
+
+#### 9. termin <sub><sup>*(24.5.2017)*<sup><sub>
+- osnove uporabe strojnega učenja
+
 ***
 #### Uporabna literatura
 - [CodingBat Python](http://codingbat.com/python) in [Codecademy](https://www.codecademy.com/learn/python)
