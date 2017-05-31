@@ -2,7 +2,7 @@
 Material za računalniški krožek na Gimnaziji Bežigrad v šolskem letu 2016/17.
 Načeloma boste tu našli *snov, naloge in rešitve nalog*.
 
-Navodila in naloge se nahajajo v ```master``` branch, primer rešitve pa v ```resitve``` branch.
+Navodila in naloge se nahajajo v ```master``` branch, zraven pa je tudi primer rešitve.
 
 ***
 ### Teme

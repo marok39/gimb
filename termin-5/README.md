@@ -57,9 +57,11 @@ Pazi na primere, kjer so nepopolni podatki (npr. manjka leto)!
 Imamo robota, ki se je znašel v labirintu.
 Trenutno je na polju (x, y). Pomagaj mu priti v polje destination (xd, yd).
 
-Izpiši koordinate polj (ali premike), ki jih prehodi na poti. 
-Če pot ne obstaja, vrni ```None```. 
+Izpiši koordinate polj (ali premike), ki jih prehodi na poti.
+Če pot ne obstaja, vrni ```None```.
 Če je začetna pozicija enaka končni potem vrni prazen seznam.
+
+Izpiši koordinate polj, ki jih prehodi na poti. Če pot ne obstaja, izpiši prazen seznam.
 Robot se lahko premika le gor, levo, dol in desno (zaporedje je prioriteta premikov).
 
 Lahko si izmisliš svoj algoritem za iskanje poti, predlagam pa, da implementiraš te dva:
