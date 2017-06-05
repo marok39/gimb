@@ -41,8 +41,7 @@ def language_similarity(path, print_pair=False):
 
             texts.append(text)
 
-
-    for l in _: # TODO
+    for l in _:  # TODO
         # dist = ...
         distances.append(dist)
         if (print_pair):
@@ -53,8 +52,8 @@ def language_similarity(path, print_pair=False):
 
 def plot_dendrogram(ids, data):
     """ Plot dendrogram with given data. """
-    Z = hierarchy.linkage(data, method="average")
-    hierarchy.dendrogram(Z, orientation="right", labels=ids)
+    z = hierarchy.linkage(data, method="average")
+    hierarchy.dendrogram(z, orientation="right", labels=ids)
     plt.title("Language similarity")
     plt.xlabel("Cosine Distance")
     plt.ylabel("Language")

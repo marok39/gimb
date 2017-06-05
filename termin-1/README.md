@@ -3,6 +3,7 @@
   - ```pwd``` prikaže celotno pot do trenutnega imenika
   - ```ls ``` prikaže datoteke v trenutnem direktoriju:
     - ```ls -l``` ali ```ll``` seznam datotek s podrobnostmi
+  - ```dir``` prikaže datoteke v trenutnem direkturiju (windows)
   - ```cd``` spremeni direktorij:
     - ```cd ..``` pojdi po hiearhiji nazaj
     - ```cd ime-mojega-direktorija``` pojdi v *ime-mojega-direktorija*
